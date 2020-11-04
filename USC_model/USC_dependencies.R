@@ -11,11 +11,10 @@ package_list <- c(
   "lhs",
   "sensitivity",
   "boot",
-  #"prevalence",
   "kableExtra"
 )
 
-
+#"prevalence",
 
 #install dependencies
 if(F){

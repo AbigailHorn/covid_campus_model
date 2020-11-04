@@ -3,6 +3,8 @@ title: "Emory Spring 2021 COVID Model"
 author: "A  model analysis of COVID-19 tranmssion and control at Emory University"
 date: "10/5/2020"
 output: html_document
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r setup, include=F}

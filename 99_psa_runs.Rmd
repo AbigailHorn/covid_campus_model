@@ -5,12 +5,17 @@ date: "6/1/2020"
 output:
   html_document:
     df_print: paged
+editor_options: 
+  chunk_output_type: console
 ---
 
 
 ```{r}
 knitr::opts_chunk$set(echo = TRUE)
 # Load dependencies, functions and parameters
+
+setwd("/Users/abigailhorn/Dropbox/GitHub/covid_campus_model")
+
 source("99_dependencies.R")
 source("99_model_func.R")
 source("99_parm_init_control.R")
