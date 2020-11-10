@@ -1,5 +1,8 @@
 # test
-setwd("~/Google Drive File Stream/My Drive/Collaborations/COVID19/USC.University.SEIR.Model/USC.model")
+#setwd("~/Google Drive File Stream/My Drive/Collaborations/COVID19/USC.University.SEIR.Model/USC.model")
+
+library(here)
+setwd(here("USC_model"))
 
 source("USC_dependencies.R")
 source("USC_model_func.R")
